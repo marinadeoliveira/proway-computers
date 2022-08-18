@@ -1,0 +1,30 @@
+.container{
+  width: "80'";
+  margin: auto;
+  padding: 20px;
+}
+.search-form{
+  height: 44px;
+  display: flex;
+}
+
+.search-form input{
+  box-sizing: border-box;
+  height: 56px;
+  padding: 28px;
+  flex:1;
+  background-color: var(--light-gray);
+  color: var(--gray);
+  border: none;
+  transition: all -3s ease-in-out;
+  font-size: 22px;
+}
+
+.search-form button{
+  width: 56px;
+  height: 56px;
+  background-color: var(--blue);
+  border:none;
+  color: rgb(52, 51, 54);
+  font-size: 22px;
+}
